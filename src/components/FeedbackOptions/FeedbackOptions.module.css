@@ -1,0 +1,44 @@
+.buttonDiv {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  justify-content: flex-start;
+  padding-top: 0;
+  margin: 0;
+}
+.buttonGood,
+.buttonNeutral,
+.buttonBad {
+  padding: auto;
+  height: 50px;
+  width: 150px;
+  border-radius: 5px;
+  font-size: 25px;
+  border: none;
+  cursor: pointer;
+  
+}
+
+.buttonGood {
+  background: rgb(39, 192, 39);
+  color: white;
+}
+
+.buttonNeutral {
+  background: rgb(174, 194, 221);
+}
+.buttonBad {
+  background: rgb(212, 26, 26);
+  color: white;
+}
+
+.buttonGood:hover {
+  background-color: rgb(14, 207, 78);
+}
+
+.buttonNeutral:hover {
+  background-color: rgb(186, 208, 236);
+}
+.buttonBad:hover {
+  background-color: rgb(236, 41, 41);
+}

@@ -1,0 +1,13 @@
+.textDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  margin: 0;
+  margin-top: 15px;
+  padding: 0;
+  font-size: 20px;
+  font-weight: 500;
+}
+.text {
+  margin: 0;
+}
